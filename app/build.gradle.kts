@@ -8,7 +8,7 @@
 
 plugins {
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
-    id("org.jetbrains.kotlin.jvm") version "1.5.31"
+    id("org.jetbrains.kotlin.jvm") version "1.3.70"
 
     // Apply the application plugin to add support for building a CLI application in Java.
     application
@@ -31,9 +31,5 @@ dependencies {
 
     // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
-}
-
-application {
-    // Define the main class for the application.
-    mainClass.set("codingTest.AppKt")
+    testImplementation("org.assertj:assertj-core:3.21.0")
 }
