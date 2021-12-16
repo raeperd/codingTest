@@ -1,4 +1,0 @@
-package codingTest
-
-class Solution {
-}
