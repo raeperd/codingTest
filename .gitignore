@@ -6,3 +6,9 @@ build
 
 # Ignore idea
 .idea
+
+# venv
+venv
+
+# python cache
+.pytest_cache
